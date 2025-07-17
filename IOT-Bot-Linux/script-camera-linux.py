@@ -44,9 +44,26 @@ async def handle_websocket(websocket, distance_dict):
 
 # Websocket Server starten
 async def start_websocket_server(distance_dict):
-    server = await websockets.serve(lambda ws, path: handle_websocket(ws, distance_dict), "localhost", 3000)
-    print("Websocket Server läuft auf ws://localhost:3000")
-    await server.wait_closed()
+    try:
+        print("Versuche Server zu starten")
+        server = await websockets.serve(lambda ws, path: handle_websocket(ws, distance_dict), "localhost", 3187)
+        print("Websocket Server läuft auf ws://localhost:3187")
+        await server.wait_closed()
+    except Exception as e:
+        print("Problem bei Serverstart", repr(e))
+
+#async def start_websocket_server(distance_dict):
+    # Wrapper mit genau zwei Parametern einfügen
+#    async def ws_handler(websocket, path):
+#        await handle_websocket(websocket, distance_dict)
+
+    # serve-Aufruf auf ws_handler umstellen
+#    server = await websockets.serve(
+#        ws_handler,
+#        "localhost", 3000
+#    )
+#    print("Websocket Server läuft auf ws://localhost:3000")
+#    await server.wait_closed()
 
 def detect_color(distance_dict):
 
@@ -170,8 +187,8 @@ def detect_color(distance_dict):
         # cv2.imshow('result', result)
         
         # Beenden mit 'q'
-        if cv2.waitKey(1) == ord('q'):
-            break
+        # if cv2.waitKey(1) == ord('q'):
+        #     break
     
     cap.release()
     cv2.destroyAllWindows()
