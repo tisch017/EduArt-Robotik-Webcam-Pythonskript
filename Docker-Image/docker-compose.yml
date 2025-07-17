@@ -1,0 +1,11 @@
+services:
+  camera-docker-image:
+    build:
+      context: .
+    devices:
+      - "/dev/video0:/dev/video0"
+    network_mode: host
+    restart: always
+    privileged: true
+    ipc: host
+    pid: host
