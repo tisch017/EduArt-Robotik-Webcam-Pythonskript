@@ -5,7 +5,7 @@ Das Skript `script-camera-GUI.py` dient zum **Testen und Einstellen** der Webcam
 ### Beispielaufruf in der Eingabeaufforderung (CMD):
 
 ```bash
-python "Pfad\zum\script-camera-GUI.py" 112 173 134 179 255 255 500 1
+python3 Pfad\zum\script-camera-GUI.py 112 173 134 179 255 255 500 1
 ```
 
 ### Parameterbeschreibung:
