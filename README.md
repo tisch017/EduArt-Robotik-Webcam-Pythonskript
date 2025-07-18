@@ -54,6 +54,8 @@ Ein Docker Container zur Ausführung des Python-Skripts auf der IOT2050 (keien F
 
 ![Übersichtsbild](uebersicht.png)
 
+![IOT-Bot mit Webcam](IOT-Bot.jpeg)
+
 ---
 
 ## 📌 Hinweise
