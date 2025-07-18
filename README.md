@@ -6,7 +6,7 @@ Dieses Projekt ermöglicht die Steuerung eines Roboters über Node-RED mithilfe 
 
 ## 📚 Dokumentation
 
-🔗 [PDF-Dokumentation]()
+🔗 [PDF-Dokumentation](https://github.com/tisch017/EduArt-Robotik-Webcam-Pythonskript/blob/main/Objekterkennung%20IoT-Bot_Dokumentation.pdf)
 
 ---
 
