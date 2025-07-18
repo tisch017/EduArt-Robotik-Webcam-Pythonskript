@@ -4,6 +4,12 @@ Dieses Projekt ermöglicht die Steuerung eines Roboters über Node-RED mithilfe 
 
 ---
 
+## 📚 Dokumentation
+
+🔗 [PDF-Dokumentation]()
+
+---
+
 ## 💡 Tipps
 
 Hier sind ein paar hilfreiche Zusatzinformationen zusammengetragen:
@@ -46,9 +52,7 @@ Ein Docker Container zur Ausführung des Python-Skripts auf der IOT2050 (keien F
 
 ## 🖼️ Übersicht
 
-!Projektübersicht
-
-_*(Bitte ersetze `LINK_ZUM_BILD` durch die tatsächliche URL oder lade das Bild direkt in dein Repository hoch.)*_
+![Übersichtsbild](uebersicht.png)
 
 ---
 
