@@ -1,0 +1,2942 @@
+[
+    {
+        "id": "47c6264c17cc7b9f",
+        "type": "tab",
+        "label": "Control",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a8e5359f6aac853d",
+        "type": "tab",
+        "label": "Dash - Intern",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c9505fb5187f49ac",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "25c862e8d7d5f190",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5eaecd10b31315cd",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD.MM.YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "2fca22ca6d202c5d",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ad699d6c816973cf",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "262d6637dcc34f10",
+        "type": "ui_group",
+        "name": "Joy-Stick",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4e13363d7ad1f45d",
+        "type": "ui_group",
+        "name": "test",
+        "tab": "",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c2e3a1af86628c20",
+        "type": "ui_group",
+        "name": "Distance",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "71e1affbc2d1f49c",
+        "type": "ui_group",
+        "name": "Voltage",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "be56443b7680043a",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9662cc33ae0b854d",
+        "type": "ui_group",
+        "name": "Lights",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "dea1179c38bb723b",
+        "type": "dds-settings",
+        "domain": "2"
+    },
+    {
+        "id": "f934d276b644c9bc",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d876894bf413ed4a",
+        "type": "dds-settings",
+        "domain": "2"
+    },
+    {
+        "id": "7edfd46667c66013",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b6e531bdd10480d6",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "10c95ac4f27deae0",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "d178d227547b5c75",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "4a7856d4796a786f",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "828949ec7cebc7f1",
+        "type": "ui_group",
+        "name": "Distance",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8a2852f8ad6cda70",
+        "type": "ui_group",
+        "name": "Voltage",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e5647b0a5042a74e",
+        "type": "ui_group",
+        "name": "Lights",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f538decd6503e602",
+        "type": "dds-settings",
+        "domain": "2"
+    },
+    {
+        "id": "ddd788dcc1d704f5",
+        "type": "dds-settings",
+        "domain": "2"
+    },
+    {
+        "id": "42c44e2ebe3e4cb2",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bec843e2edbf9a33",
+        "type": "dds-settings",
+        "domain": "2"
+    },
+    {
+        "id": "ecccd83bf7548e7d",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7e86236fa18a990c",
+        "type": "dds-settings",
+        "domain": "2"
+    },
+    {
+        "id": "0bb71e618f8849c3",
+        "type": "dds-settings",
+        "domain": "1"
+    },
+    {
+        "id": "4c6fc622100dc8bc",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1750fc426d6dd952",
+        "type": "ui_group",
+        "name": "Anzeige Test",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "71e5e2f0f6de635f",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "5e49def3f596a8d1",
+        "type": "ui_group",
+        "name": "Distanz",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "302a81322b72e4ab",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "d962b716daa3fe6c",
+        "type": "ui_group",
+        "name": "Distanz ",
+        "tab": "",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fd8a3a43df11be98",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "39d1af37d18fcb72",
+        "type": "ui_group",
+        "name": "Distanz",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6a1c59e569ae5081",
+        "type": "ui_group",
+        "name": "Elektronik",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ffd5cb625e05bf1f",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "61254145c6963c9a",
+        "type": "ui_group",
+        "name": "Beleuchtung",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6cbc1e9cd4e864be",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "2395ce806452a35f",
+        "type": "ui_group",
+        "name": "Beleuchtung ",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d59a6d49a3f5153a",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "10ce69f21fdaeb0f",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "eeee151fab1f1257",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "9e23fb71a61a4756",
+        "type": "ui_group",
+        "name": "Joy-Stick",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f10164b7cd3b9ffb",
+        "type": "ui_group",
+        "name": "",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0e1265fbf7bebd9d",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "441a71c17e81cc3c",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "efd5c02771ef6acb",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "dd86927ab4054494",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "7728498f9a2f5dbc",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "3a1110c80a42df16",
+        "type": "dds-settings",
+        "domain": ""
+    },
+    {
+        "id": "7aadf51fb3b7f2c9",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "6af9f59139cb1241",
+        "type": "ui_group",
+        "name": "Joy-Stick",
+        "tab": "",
+        "order": 7,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3362dc040e5187f9",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "a0b088881fd11133",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "b817b3e96aa2ba9b",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "dashboard",
+        "type": "ui_group",
+        "name": "Roboter",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "43ce17d122f11b31",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "311539443094e3c9",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "3a550fc2d6369624",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "2b72c1f46b07615b",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "b96f7fe7a1d4c2c1",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "015679532de19df5",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "390888f6c4716ace",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "aa0c14b7cd7a8599",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "0bca0961d6db4115",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "1966ef21498b72c1",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "fd8516fb461d64bf",
+        "type": "ui_group",
+        "name": "Distanz",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 18,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7170ae516ee60572",
+        "type": "ui_group",
+        "name": "Lights",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1da0a9e67bd7aea8",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "616acc660e01276d",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c971365ab5e694cb",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0ce9cdd5fbe0d07f",
+        "type": "ui_group",
+        "name": "Slider 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2115224b04a8acad",
+        "type": "ui_group",
+        "name": "Slider 2",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8a576a252c87e579",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a4ed2ac6473f6561",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8d5bff8cd4dbee5f",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "68fcb3b96583b98d",
+        "type": "ui_group",
+        "name": "Distanz",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "baeb3592d23d9956",
+        "type": "ui_group",
+        "name": "Elektronik ",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "33c094f08b68f459",
+        "type": "ui_group",
+        "name": "Beleuchtung",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c73d2e06d3e37857",
+        "type": "ui_group",
+        "name": "Joy-Stick",
+        "tab": "",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b77edc28979a760c",
+        "type": "ui_group",
+        "name": "Joy Stick",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "520c5733b0abf1e7",
+        "type": "ui_group",
+        "name": "Joy-Stick",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "04654615f367e121",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "bd54ce8276c58542",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "49c12fc077fadcdf",
+        "type": "ui_group",
+        "name": "Joy-Stick",
+        "tab": "",
+        "order": 7,
+        "disp": true,
+        "width": "22",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d6e207c1aab7723b",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "c8c590f0bd56ba11",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "0218266a9cd61ab6",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ba773ecadc520791",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "50098e1a97ad3fee",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "ca4a4b6a28eb2c21",
+        "type": "ui_group",
+        "name": "Auto",
+        "tab": "",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c9509e031c98fcdd",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "a27949eb9497247f",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "344a5b50b4d2a585",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "37afda67c8cd97a0",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "",
+        "order": 8,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e3a794cdc090c19e",
+        "type": "ui_group",
+        "name": "Parcours",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "af8c831f6e708cbf",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "",
+        "order": 9,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0de45fdd22cbf147",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "",
+        "order": 11,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "dd76ccac1d8e2d68",
+        "type": "ui_tab",
+        "name": "main",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6d7d0718ad3d786f",
+        "type": "ui_group",
+        "name": "Bildstatus",
+        "tab": "dd76ccac1d8e2d68",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4a47c995f2e3a567",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8fe5da5c30576133",
+        "type": "ui_tab",
+        "name": "Schieber 3",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2fdf6325d6ca1cb3",
+        "type": "ui_tab",
+        "name": "Sensoren ",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "4803a7220cd83a36",
+        "type": "ui_tab",
+        "name": "Distanz",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3e5d3312c17a8405",
+        "type": "ui_tab",
+        "name": "Steuern",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ac85c3eb884a060d",
+        "type": "ui_tab",
+        "name": "Steuern",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "5cd580ab7874cb10",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a74409d6b1974955",
+        "type": "ui_tab",
+        "name": "Parcours",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "00fff0507058ca72",
+        "type": "ui_group",
+        "name": "Steuerung",
+        "tab": "dd76ccac1d8e2d68",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7b12628829ee05ce",
+        "type": "ui_group",
+        "name": "Intern",
+        "tab": "dd76ccac1d8e2d68",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f68fe9753f88aabd",
+        "type": "websocket-client",
+        "path": "ws://localhost:3187",
+        "tls": "",
+        "wholemsg": "false",
+        "hb": "0",
+        "subprotocol": "",
+        "headers": []
+    },
+    {
+        "id": "635aa8c6c69f2b48",
+        "type": "dds-settings",
+        "domain": "0"
+    },
+    {
+        "id": "7d7987e5950567f4",
+        "type": "ui_group",
+        "name": "CAM",
+        "tab": "dd76ccac1d8e2d68",
+        "order": 4,
+        "disp": true,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f965bd7cf4891a4f",
+        "type": "inject",
+        "z": "47c6264c17cc7b9f",
+        "name": "Stopp-Ausgabe",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "control",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 520,
+        "y": 880,
+        "wires": [
+            [
+                "70600c25e5fd498d"
+            ]
+        ]
+    },
+    {
+        "id": "42be208f8bd2846b",
+        "type": "inject",
+        "z": "47c6264c17cc7b9f",
+        "name": "Start-Ausgabe",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "control",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 530,
+        "y": 740,
+        "wires": [
+            [
+                "70600c25e5fd498d"
+            ]
+        ]
+    },
+    {
+        "id": "70600c25e5fd498d",
+        "type": "function",
+        "z": "47c6264c17cc7b9f",
+        "name": "checkRange & control",
+        "func": "// Running-Flag aus Context oder true initial\nlet running = context.get('running');\nif (running === undefined) {\n    running = true;\n    context.set('running', true);\n}\n\n// Steuerung: topic == 'control' → running ein-/ausschalten\nif (msg.topic === 'control') {\n    context.set('running', msg.payload === true);\n    return null;\n}\n\n// Wenn gestoppt, nichts ausgeben\nif (!running) {\n    return null;\n}\n\n// Nur echte Zahlen durchlassen\nif (typeof msg.payload !== 'number' || isNaN(msg.payload)) {\n    return null;\n}\n\n// Wertebereich prüfen und auf drei Ausgänge verteilen\nlet v = msg.payload;\nlet outputs = [null, null, null];\nlet sensor_stop = global.get(\"sensor_stop\");\nif (sensor_stop == false){\n    if (v < -125) {\n        outputs[0] = msg;\n    } else if (v > 125) {\n        outputs[1] = msg;\n    } else {\n        outputs[2] = msg;\n    }\n}\nreturn outputs;",
+        "outputs": 3,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 940,
+        "wires": [
+            [
+                "56a5240ef13089e1",
+                "20cf0d1d671ed620",
+                "e90d47f9379dcc1a"
+            ],
+            [
+                "816ee2dfc798eb55",
+                "20cf0d1d671ed620",
+                "4794866223ebb4ef"
+            ],
+            [
+                "af4d7719ec90e5c2",
+                "f9e098165b5c368f",
+                "20cf0d1d671ed620"
+            ]
+        ]
+    },
+    {
+        "id": "56a5240ef13089e1",
+        "type": "debug",
+        "z": "47c6264c17cc7b9f",
+        "name": "Ausgang 1 (< -75)",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 1350,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "816ee2dfc798eb55",
+        "type": "debug",
+        "z": "47c6264c17cc7b9f",
+        "name": "Ausgang 2 (> 75)",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 1450,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "af4d7719ec90e5c2",
+        "type": "debug",
+        "z": "47c6264c17cc7b9f",
+        "name": "Ausgang 3 (–75 … 75)",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 1320,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "b009048b03e081c4",
+        "type": "websocket in",
+        "z": "47c6264c17cc7b9f",
+        "name": "",
+        "server": "",
+        "client": "f68fe9753f88aabd",
+        "x": 780,
+        "y": 100,
+        "wires": [
+            [
+                "a9c31135b912dcec",
+                "a82aafed0b41a127"
+            ]
+        ]
+    },
+    {
+        "id": "afe27b71a7aff59e",
+        "type": "inject",
+        "z": "47c6264c17cc7b9f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "0.1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"request\":\"get_distance\"}",
+        "payloadType": "json",
+        "x": 130,
+        "y": 80,
+        "wires": [
+            [
+                "da6b950b583f335d"
+            ]
+        ]
+    },
+    {
+        "id": "da6b950b583f335d",
+        "type": "websocket out",
+        "z": "47c6264c17cc7b9f",
+        "name": "",
+        "server": "",
+        "client": "f68fe9753f88aabd",
+        "x": 470,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "a9c31135b912dcec",
+        "type": "debug",
+        "z": "47c6264c17cc7b9f",
+        "name": "json_debug",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1250,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "fa6ce77f2c5c66fd",
+        "type": "inject",
+        "z": "47c6264c17cc7b9f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"request\":\"set_params\",\"h_min\":100,\"s_min\":125,\"v_min\":100,\"h_max\":179,\"s_max\":255,\"v_max\":255,\"area_thres\":500}",
+        "payloadType": "json",
+        "x": 130,
+        "y": 240,
+        "wires": [
+            [
+                "0dc77757b6975ee3"
+            ]
+        ]
+    },
+    {
+        "id": "0dc77757b6975ee3",
+        "type": "websocket out",
+        "z": "47c6264c17cc7b9f",
+        "name": "",
+        "server": "",
+        "client": "f68fe9753f88aabd",
+        "x": 410,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "3a9624284c4dfa23",
+        "type": "image",
+        "z": "47c6264c17cc7b9f",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "thumbnail": false,
+        "active": false,
+        "pass": false,
+        "outputs": 0,
+        "x": 1260,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "65d2d03cf247fa09",
+        "type": "function",
+        "z": "47c6264c17cc7b9f",
+        "name": "Base64",
+        "func": "msg.payload = msg.payload.image;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 260,
+        "wires": [
+            [
+                "3a9624284c4dfa23",
+                "88ed1615dd2a8f81",
+                "118d87146b7990f1"
+            ]
+        ]
+    },
+    {
+        "id": "88ed1615dd2a8f81",
+        "type": "debug",
+        "z": "47c6264c17cc7b9f",
+        "name": "Base64",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1720,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "118d87146b7990f1",
+        "type": "ui_template",
+        "z": "47c6264c17cc7b9f",
+        "group": "7d7987e5950567f4",
+        "name": "Bildausgabe",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "html\n<div style=\"text.align:center\">\n    <img style=\"width:800px; height:700px\" ng-src=\"data:image/jpeg; base64,{{msg.payload}}\" />\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1250,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a82aafed0b41a127",
+        "type": "json",
+        "z": "47c6264c17cc7b9f",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 830,
+        "y": 260,
+        "wires": [
+            [
+                "65d2d03cf247fa09",
+                "da5b1b1b595233fe",
+                "3695431ecf63682b"
+            ]
+        ]
+    },
+    {
+        "id": "da5b1b1b595233fe",
+        "type": "function",
+        "z": "47c6264c17cc7b9f",
+        "name": "distance_to_center",
+        "func": "msg.payload= msg.payload.distance_to_center;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1010,
+        "y": 320,
+        "wires": [
+            [
+                "2b02ef7fbaf69d35",
+                "0c3df79b8cd14a0b",
+                "70600c25e5fd498d"
+            ]
+        ]
+    },
+    {
+        "id": "3695431ecf63682b",
+        "type": "function",
+        "z": "47c6264c17cc7b9f",
+        "name": "area",
+        "func": "msg.payload = msg.payload.area;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 380,
+        "wires": [
+            [
+                "d77c97c58b30c677",
+                "ee7662884b249805",
+                "b4061d1eab54e15d"
+            ]
+        ]
+    },
+    {
+        "id": "2b02ef7fbaf69d35",
+        "type": "debug",
+        "z": "47c6264c17cc7b9f",
+        "name": "dis",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1710,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "d77c97c58b30c677",
+        "type": "debug",
+        "z": "47c6264c17cc7b9f",
+        "name": "area",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1710,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "0c3df79b8cd14a0b",
+        "type": "ui_text",
+        "z": "47c6264c17cc7b9f",
+        "group": "6d7d0718ad3d786f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Abstand Bildmitte",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1270,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "ee7662884b249805",
+        "type": "ui_text",
+        "z": "47c6264c17cc7b9f",
+        "group": "6d7d0718ad3d786f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Fläche",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1230,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "4794866223ebb4ef",
+        "type": "ROS2 Inject",
+        "z": "47c6264c17cc7b9f",
+        "types": [],
+        "props": [
+            {
+                "p": "linear.x",
+                "v": "0",
+                "vt": "num",
+                "t": "float64"
+            },
+            {
+                "p": "linear.y",
+                "v": "",
+                "vt": "num",
+                "t": "float64"
+            },
+            {
+                "p": "linear.z",
+                "v": "",
+                "vt": "num",
+                "t": "float64"
+            },
+            {
+                "p": "angular.x",
+                "v": "",
+                "vt": "num",
+                "t": "float64"
+            },
+            {
+                "p": "angular.y",
+                "v": "",
+                "vt": "num",
+                "t": "float64"
+            },
+            {
+                "p": "angular.z",
+                "v": "-0.5",
+                "vt": "num",
+                "t": "float64"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "ros2type": "geometry_msgs/msg/Twist",
+        "idltype": "",
+        "x": 1610,
+        "y": 920,
+        "wires": [
+            [
+                "7d1d57183d046659"
+            ]
+        ]
+    },
+    {
+        "id": "f9e098165b5c368f",
+        "type": "ROS2 Inject",
+        "z": "47c6264c17cc7b9f",
+        "types": [],
+        "props": [
+            {
+                "p": "linear.x",
+                "v": "0.15",
+                "vt": "num",
+                "t": "float64"
+            },
+            {
+                "p": "linear.y",
+                "v": "",
+                "vt": "num",
+                "t": "float64"
+            },
+            {
+                "p": "linear.z",
+                "v": "",
+                "vt": "num",
+                "t": "float64"
+            },
+            {
+                "p": "angular.x",
+                "v": "",
+                "vt": "num",
+                "t": "float64"
+            },
+            {
+                "p": "angular.y",
+                "v": "",
+                "vt": "num",
+                "t": "float64"
+            },
+            {
+                "p": "angular.z",
+                "v": "",
+                "vt": "num",
+                "t": "float64"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "ros2type": "geometry_msgs/msg/Twist",
+        "idltype": "",
+        "x": 1570,
+        "y": 1160,
+        "wires": [
+            [
+                "7d1d57183d046659"
+            ]
+        ]
+    },
+    {
+        "id": "7d1d57183d046659",
+        "type": "ROS2 Type",
+        "z": "47c6264c17cc7b9f",
+        "ros2pkg": "geometry_msgs",
+        "ros2message": "Twist",
+        "x": 2020,
+        "y": 920,
+        "wires": [
+            [
+                "f5c6c9abb315eb80",
+                "4e4a3c4502c60380"
+            ]
+        ]
+    },
+    {
+        "id": "e90d47f9379dcc1a",
+        "type": "ROS2 Inject",
+        "z": "47c6264c17cc7b9f",
+        "types": [],
+        "props": [
+            {
+                "p": "linear.x",
+                "v": "",
+                "vt": "num",
+                "t": "float64"
+            },
+            {
+                "p": "linear.y",
+                "v": "",
+                "vt": "num",
+                "t": "float64"
+            },
+            {
+                "p": "linear.z",
+                "v": "",
+                "vt": "num",
+                "t": "float64"
+            },
+            {
+                "p": "angular.x",
+                "v": "",
+                "vt": "num",
+                "t": "float64"
+            },
+            {
+                "p": "angular.y",
+                "v": "",
+                "vt": "num",
+                "t": "float64"
+            },
+            {
+                "p": "angular.z",
+                "v": "0.5",
+                "vt": "num",
+                "t": "float64"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "ros2type": "geometry_msgs/msg/Twist",
+        "idltype": "",
+        "x": 1650,
+        "y": 740,
+        "wires": [
+            [
+                "7d1d57183d046659"
+            ]
+        ]
+    },
+    {
+        "id": "8ed6d107220dfd24",
+        "type": "comment",
+        "z": "47c6264c17cc7b9f",
+        "name": "scharf links",
+        "info": "",
+        "x": 1600,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "f07961428a8f93c9",
+        "type": "comment",
+        "z": "47c6264c17cc7b9f",
+        "name": "geradeaus",
+        "info": "",
+        "x": 1560,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "86619b3d6a03deaf",
+        "type": "comment",
+        "z": "47c6264c17cc7b9f",
+        "name": "scharf rechts",
+        "info": "",
+        "x": 1630,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "4e4a3c4502c60380",
+        "type": "Publisher",
+        "z": "47c6264c17cc7b9f",
+        "topic": "/eduard/green/autonomous/cmd_vel",
+        "domain": "635aa8c6c69f2b48",
+        "props": [],
+        "selectedtype": "geometry_msgs/msg/Twist",
+        "x": 2360,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f5c6c9abb315eb80",
+        "type": "debug",
+        "z": "47c6264c17cc7b9f",
+        "name": "debug 21",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2340,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "d9e54066079f906f",
+        "type": "Service Client",
+        "z": "47c6264c17cc7b9f",
+        "topic": "/eduard/green/set_mode",
+        "domain": "635aa8c6c69f2b48",
+        "props": [],
+        "selectedtype": "edu_robot/srv/SetMode",
+        "x": 1700,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d757c37d318b50e0",
+        "type": "ROS2 Service Type",
+        "z": "47c6264c17cc7b9f",
+        "ros2pkg": "edu_robot",
+        "ros2service": "SetMode",
+        "x": 1470,
+        "y": 560,
+        "wires": [
+            [
+                "d9e54066079f906f"
+            ]
+        ]
+    },
+    {
+        "id": "20cf0d1d671ed620",
+        "type": "ROS2 Inject",
+        "z": "47c6264c17cc7b9f",
+        "types": [],
+        "props": [
+            {
+                "p": "mode.mode",
+                "v": "4",
+                "vt": "num",
+                "t": "uint8"
+            },
+            {
+                "p": "mode.drive_kinematic",
+                "v": "0",
+                "vt": "num",
+                "t": "uint8"
+            },
+            {
+                "p": "mode.feature_mode",
+                "v": "0",
+                "vt": "num",
+                "t": "uint8"
+            },
+            {
+                "p": "disable_feature",
+                "v": "0",
+                "vt": "num",
+                "t": "uint8"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "ros2type": "edu_robot/srv/SetMode",
+        "idltype": "",
+        "x": 1250,
+        "y": 560,
+        "wires": [
+            [
+                "d757c37d318b50e0"
+            ]
+        ]
+    },
+    {
+        "id": "e3f04450bc32fdcb",
+        "type": "ui_button",
+        "z": "47c6264c17cc7b9f",
+        "name": "",
+        "group": "00fff0507058ca72",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Start Automatik",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 320,
+        "y": 780,
+        "wires": [
+            [
+                "c4989d2bebbe2f44"
+            ]
+        ]
+    },
+    {
+        "id": "058fd2ca8b664b44",
+        "type": "ui_button",
+        "z": "47c6264c17cc7b9f",
+        "name": "",
+        "group": "00fff0507058ca72",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Stop Automatik",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "control",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 320,
+        "y": 920,
+        "wires": [
+            [
+                "559f6178deed6138"
+            ]
+        ]
+    },
+    {
+        "id": "c10b6a3f4caca76d",
+        "type": "debug",
+        "z": "47c6264c17cc7b9f",
+        "name": "Global area",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1410,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "c4989d2bebbe2f44",
+        "type": "function",
+        "z": "47c6264c17cc7b9f",
+        "name": "Inject true/control",
+        "func": "return {\n    payload: true, topic: \"control\"\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 780,
+        "wires": [
+            [
+                "70600c25e5fd498d"
+            ]
+        ]
+    },
+    {
+        "id": "559f6178deed6138",
+        "type": "function",
+        "z": "47c6264c17cc7b9f",
+        "name": "Inject false/control",
+        "func": "return {\n    payload: false, topic: \"control\"\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 920,
+        "wires": [
+            [
+                "70600c25e5fd498d"
+            ]
+        ]
+    },
+    {
+        "id": "b4061d1eab54e15d",
+        "type": "function",
+        "z": "47c6264c17cc7b9f",
+        "name": "Global area",
+        "func": "global.set(\"area\", msg.payload); \nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 400,
+        "wires": [
+            [
+                "c10b6a3f4caca76d"
+            ]
+        ]
+    },
+    {
+        "id": "3e79fa33dc9da026",
+        "type": "ROS2 Type",
+        "z": "47c6264c17cc7b9f",
+        "ros2pkg": "sensor_msgs",
+        "ros2message": "Range",
+        "x": 220,
+        "y": 1260,
+        "wires": [
+            [
+                "e1dd519f86e11fbe"
+            ]
+        ]
+    },
+    {
+        "id": "d5ef5b0e4acfe3cd",
+        "type": "ROS2 Type",
+        "z": "47c6264c17cc7b9f",
+        "ros2pkg": "sensor_msgs",
+        "ros2message": "Range",
+        "x": 220,
+        "y": 1300,
+        "wires": [
+            [
+                "04cfba9516b20938"
+            ]
+        ]
+    },
+    {
+        "id": "abb50ffa2fd60322",
+        "type": "ROS2 Type",
+        "z": "47c6264c17cc7b9f",
+        "ros2pkg": "sensor_msgs",
+        "ros2message": "Range",
+        "x": 220,
+        "y": 1340,
+        "wires": [
+            [
+                "e3b26032ee50017d"
+            ]
+        ]
+    },
+    {
+        "id": "e8b8f37b9afde879",
+        "type": "ROS2 Type",
+        "z": "47c6264c17cc7b9f",
+        "ros2pkg": "sensor_msgs",
+        "ros2message": "Range",
+        "x": 220,
+        "y": 1380,
+        "wires": [
+            [
+                "a6836d722a82d088"
+            ]
+        ]
+    },
+    {
+        "id": "c67f27887ab93e97",
+        "type": "Subscriber",
+        "z": "47c6264c17cc7b9f",
+        "topic": "/eduard/green/range/front/left/range",
+        "domain": "ba773ecadc520791",
+        "props": [],
+        "selectedtype": "sensor_msgs/msg/Range",
+        "x": 650,
+        "y": 1260,
+        "wires": [
+            [
+                "efe60fff4f413dc1"
+            ]
+        ]
+    },
+    {
+        "id": "8c082de12bac8838",
+        "type": "Subscriber",
+        "z": "47c6264c17cc7b9f",
+        "topic": "/eduard/green/range/rear/left/range",
+        "domain": "ba773ecadc520791",
+        "props": [],
+        "selectedtype": "sensor_msgs/msg/Range",
+        "x": 650,
+        "y": 1300,
+        "wires": [
+            [
+                "dd5715ef55843e02"
+            ]
+        ]
+    },
+    {
+        "id": "d01773ef93ca46ed",
+        "type": "Subscriber",
+        "z": "47c6264c17cc7b9f",
+        "topic": "/eduard/green/range/front/right/range",
+        "domain": "ba773ecadc520791",
+        "props": [],
+        "selectedtype": "sensor_msgs/msg/Range",
+        "x": 650,
+        "y": 1340,
+        "wires": [
+            [
+                "d7467fa5d2a334ed"
+            ]
+        ]
+    },
+    {
+        "id": "faf3e122b0239755",
+        "type": "Subscriber",
+        "z": "47c6264c17cc7b9f",
+        "topic": "/eduard/green/range/rear/right/range",
+        "domain": "ba773ecadc520791",
+        "props": [],
+        "selectedtype": "sensor_msgs/msg/Range",
+        "x": 650,
+        "y": 1380,
+        "wires": [
+            [
+                "d200763282383e98"
+            ]
+        ]
+    },
+    {
+        "id": "efe60fff4f413dc1",
+        "type": "function",
+        "z": "47c6264c17cc7b9f",
+        "name": "Global front left",
+        "func": "global.set(\"range_front_left\", msg.payload.range); \nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 1260,
+        "wires": [
+            [
+                "e67dbd6e6cb50376"
+            ]
+        ]
+    },
+    {
+        "id": "dd5715ef55843e02",
+        "type": "function",
+        "z": "47c6264c17cc7b9f",
+        "name": "Global rear left",
+        "func": "global.set(\"range_rear_left\", msg.payload.range); \nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 1300,
+        "wires": [
+            [
+                "e67dbd6e6cb50376"
+            ]
+        ]
+    },
+    {
+        "id": "d7467fa5d2a334ed",
+        "type": "function",
+        "z": "47c6264c17cc7b9f",
+        "name": "Global front right",
+        "func": "global.set(\"range_front_right\", msg.payload.range); \nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 1340,
+        "wires": [
+            [
+                "e67dbd6e6cb50376"
+            ]
+        ]
+    },
+    {
+        "id": "d200763282383e98",
+        "type": "function",
+        "z": "47c6264c17cc7b9f",
+        "name": "Global rear right",
+        "func": "global.set(\"range_rear_right\", msg.payload.range); \nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 1380,
+        "wires": [
+            [
+                "e67dbd6e6cb50376"
+            ]
+        ]
+    },
+    {
+        "id": "e67dbd6e6cb50376",
+        "type": "function",
+        "z": "47c6264c17cc7b9f",
+        "name": "Sensor Stop",
+        "func": "if (global.get(\"range_front_left\")  < 0.2 || \n    global.get(\"range_front_right\") < 0.2 ||\n    global.get(\"area\") > global.get(\"area_user_set\") ){\n    global.set(\"sensor_stop\", true);\n}\nelse{\n    global.set(\"sensor_stop\", false);\n}\nmsg.payload = global.get(\"sensor_stop\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1070,
+        "y": 1380,
+        "wires": [
+            [
+                "d08907ea1de7516f"
+            ]
+        ]
+    },
+    {
+        "id": "d08907ea1de7516f",
+        "type": "debug",
+        "z": "47c6264c17cc7b9f",
+        "name": "debug 22",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1340,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "4bc10b745e8285d7",
+        "type": "ui_slider",
+        "z": "47c6264c17cc7b9f",
+        "name": "",
+        "label": "Fläche Schwelle",
+        "tooltip": "",
+        "group": "00fff0507058ca72",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100000",
+        "step": "1000",
+        "className": "",
+        "x": 200,
+        "y": 1460,
+        "wires": [
+            [
+                "c0aee3efcd7f4f3c",
+                "5ad81d3e9e3bfda0"
+            ]
+        ]
+    },
+    {
+        "id": "c0aee3efcd7f4f3c",
+        "type": "function",
+        "z": "47c6264c17cc7b9f",
+        "name": "Global area_user_set",
+        "func": "global.set(\"area_user_set\", msg.payload); \nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 1460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5ad81d3e9e3bfda0",
+        "type": "ui_text",
+        "z": "47c6264c17cc7b9f",
+        "group": "00fff0507058ca72",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Fläche Schwelle",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 420,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "d5ba0f94a55b42b8",
+        "type": "comment",
+        "z": "47c6264c17cc7b9f",
+        "name": "Verarbeitung Sensordaten für Abfrage",
+        "info": "",
+        "x": 270,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "70ea7d71768fd724",
+        "type": "comment",
+        "z": "47c6264c17cc7b9f",
+        "name": "Anfrage über \"get_distance\" um Daten",
+        "info": "",
+        "x": 230,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "52a470280ec42ca0",
+        "type": "comment",
+        "z": "47c6264c17cc7b9f",
+        "name": "Empfang der Daten aus Python Skript",
+        "info": "",
+        "x": 830,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "408cdf33692d75c8",
+        "type": "comment",
+        "z": "47c6264c17cc7b9f",
+        "name": "Aufteilung der Empfangsnachricht auf einzelne Variablen",
+        "info": "",
+        "x": 1130,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "e1dd519f86e11fbe",
+        "type": "delay",
+        "z": "47c6264c17cc7b9f",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "4",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 440,
+        "y": 1260,
+        "wires": [
+            [
+                "c67f27887ab93e97"
+            ]
+        ]
+    },
+    {
+        "id": "04cfba9516b20938",
+        "type": "delay",
+        "z": "47c6264c17cc7b9f",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "4",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 440,
+        "y": 1300,
+        "wires": [
+            [
+                "8c082de12bac8838"
+            ]
+        ]
+    },
+    {
+        "id": "e3b26032ee50017d",
+        "type": "delay",
+        "z": "47c6264c17cc7b9f",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "4",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 440,
+        "y": 1340,
+        "wires": [
+            [
+                "d01773ef93ca46ed"
+            ]
+        ]
+    },
+    {
+        "id": "a6836d722a82d088",
+        "type": "delay",
+        "z": "47c6264c17cc7b9f",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "4",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 440,
+        "y": 1380,
+        "wires": [
+            [
+                "faf3e122b0239755"
+            ]
+        ]
+    },
+    {
+        "id": "1e5ab63adbebda7e",
+        "type": "ROS2 Type",
+        "z": "a8e5359f6aac853d",
+        "ros2pkg": "edu_robot",
+        "ros2message": "RobotStatusReport",
+        "x": 230,
+        "y": 200,
+        "wires": [
+            [
+                "73e8ae1efdc9f927"
+            ]
+        ]
+    },
+    {
+        "id": "73e8ae1efdc9f927",
+        "type": "Subscriber",
+        "z": "a8e5359f6aac853d",
+        "topic": "/eduard/green/status_report",
+        "domain": "344a5b50b4d2a585",
+        "props": [],
+        "selectedtype": "edu_robot/msg/RobotStatusReport",
+        "x": 530,
+        "y": 200,
+        "wires": [
+            [
+                "a52d2a7423626dc3",
+                "dcaf9aa561f617e8"
+            ]
+        ]
+    },
+    {
+        "id": "a52d2a7423626dc3",
+        "type": "ui_gauge",
+        "z": "a8e5359f6aac853d",
+        "name": "",
+        "group": "7b12628829ee05ce",
+        "order": 5,
+        "width": 6,
+        "height": 6,
+        "gtype": "gage",
+        "title": "Systemspannung",
+        "label": "V",
+        "format": "{{msg.payload.mcu_voltage}}",
+        "min": "17",
+        "max": "30",
+        "colors": [
+            "#b30000",
+            "#00e645",
+            "#043ff1"
+        ],
+        "seg1": "18,5",
+        "seg2": "29",
+        "diff": false,
+        "className": "",
+        "x": 830,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "dcaf9aa561f617e8",
+        "type": "debug",
+        "z": "a8e5359f6aac853d",
+        "name": "debug 13",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "751bbd34a51a8926",
+        "type": "comment",
+        "z": "a8e5359f6aac853d",
+        "name": "Spannungsmessung",
+        "info": "",
+        "x": 190,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "c054980f760c6573",
+        "type": "ROS2 Type",
+        "z": "a8e5359f6aac853d",
+        "ros2pkg": "sensor_msgs",
+        "ros2message": "Range",
+        "x": 200,
+        "y": 380,
+        "wires": [
+            [
+                "3ed2939ae742e195",
+                "5c22b12ed294a910"
+            ]
+        ]
+    },
+    {
+        "id": "3ed2939ae742e195",
+        "type": "Subscriber",
+        "z": "a8e5359f6aac853d",
+        "topic": "/eduard/green/range/front/left/range",
+        "domain": "ba773ecadc520791",
+        "props": [],
+        "selectedtype": "sensor_msgs/msg/Range",
+        "x": 430,
+        "y": 380,
+        "wires": [
+            [
+                "4edb47388a200116",
+                "5c22b12ed294a910"
+            ]
+        ]
+    },
+    {
+        "id": "11023e36aeaf13b0",
+        "type": "ui_gauge",
+        "z": "a8e5359f6aac853d",
+        "name": "",
+        "group": "7b12628829ee05ce",
+        "order": 1,
+        "width": 3,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Vorne Links",
+        "label": "m",
+        "format": "{{msg.payload.range}}",
+        "min": 0,
+        "max": "3",
+        "colors": [
+            "#b30000",
+            "#e6e600",
+            "#04f176"
+        ],
+        "seg1": "0.3",
+        "seg2": "1",
+        "diff": false,
+        "className": "",
+        "x": 910,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "5c22b12ed294a910",
+        "type": "debug",
+        "z": "a8e5359f6aac853d",
+        "name": "debug range v.l.",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "72e1056e475ffe38",
+        "type": "comment",
+        "z": "a8e5359f6aac853d",
+        "name": "vorne links",
+        "info": "",
+        "x": 160,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "86baf7717cf0f1df",
+        "type": "comment",
+        "z": "a8e5359f6aac853d",
+        "name": "hinten links",
+        "info": "",
+        "x": 160,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "b4feb1fc8da17905",
+        "type": "ROS2 Type",
+        "z": "a8e5359f6aac853d",
+        "ros2pkg": "sensor_msgs",
+        "ros2message": "Range",
+        "x": 200,
+        "y": 580,
+        "wires": [
+            [
+                "e25d19df9e25b33d"
+            ]
+        ]
+    },
+    {
+        "id": "e25d19df9e25b33d",
+        "type": "Subscriber",
+        "z": "a8e5359f6aac853d",
+        "topic": "/eduard/green/range/rear/left/range",
+        "domain": "ba773ecadc520791",
+        "props": [],
+        "selectedtype": "sensor_msgs/msg/Range",
+        "x": 430,
+        "y": 580,
+        "wires": [
+            [
+                "40dd24527f4421d3"
+            ]
+        ]
+    },
+    {
+        "id": "1c8660bc0859a06a",
+        "type": "ui_gauge",
+        "z": "a8e5359f6aac853d",
+        "name": "",
+        "group": "7b12628829ee05ce",
+        "order": 2,
+        "width": 3,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Hinten links",
+        "label": "m",
+        "format": "{{msg.payload.range}}",
+        "min": 0,
+        "max": "3",
+        "colors": [
+            "#b30000",
+            "#e6e600",
+            "#04f176"
+        ],
+        "seg1": "0.3",
+        "seg2": "1",
+        "diff": false,
+        "className": "",
+        "x": 910,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "7ac1ebf77b743f6c",
+        "type": "debug",
+        "z": "a8e5359f6aac853d",
+        "name": "debug range h.l.",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "8abc9d9f25fd29b8",
+        "type": "comment",
+        "z": "a8e5359f6aac853d",
+        "name": "vorne rechts",
+        "info": "",
+        "x": 170,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "4886d788a84823d8",
+        "type": "ROS2 Type",
+        "z": "a8e5359f6aac853d",
+        "ros2pkg": "sensor_msgs",
+        "ros2message": "Range",
+        "x": 200,
+        "y": 780,
+        "wires": [
+            [
+                "05c4e75e81757ef7"
+            ]
+        ]
+    },
+    {
+        "id": "05c4e75e81757ef7",
+        "type": "Subscriber",
+        "z": "a8e5359f6aac853d",
+        "topic": "/eduard/green/range/front/right/range",
+        "domain": "ba773ecadc520791",
+        "props": [],
+        "selectedtype": "sensor_msgs/msg/Range",
+        "x": 430,
+        "y": 780,
+        "wires": [
+            [
+                "f3ddaf17d0a5cd52"
+            ]
+        ]
+    },
+    {
+        "id": "934cdd7c17c07fe3",
+        "type": "ui_gauge",
+        "z": "a8e5359f6aac853d",
+        "name": "",
+        "group": "7b12628829ee05ce",
+        "order": 3,
+        "width": 3,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Vorne rechts",
+        "label": "m",
+        "format": "{{msg.payload.range}}",
+        "min": 0,
+        "max": "3",
+        "colors": [
+            "#b30000",
+            "#e6e600",
+            "#04f176"
+        ],
+        "seg1": "0.3",
+        "seg2": "1",
+        "diff": false,
+        "className": "",
+        "x": 910,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "c24876d756728268",
+        "type": "debug",
+        "z": "a8e5359f6aac853d",
+        "name": "debug range v.r.",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "6c983740a7635d8e",
+        "type": "comment",
+        "z": "a8e5359f6aac853d",
+        "name": "hinten rechts",
+        "info": "",
+        "x": 170,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "2101b5c777a41f39",
+        "type": "ROS2 Type",
+        "z": "a8e5359f6aac853d",
+        "ros2pkg": "sensor_msgs",
+        "ros2message": "Range",
+        "x": 200,
+        "y": 980,
+        "wires": [
+            [
+                "19d3a904c30c9b66"
+            ]
+        ]
+    },
+    {
+        "id": "19d3a904c30c9b66",
+        "type": "Subscriber",
+        "z": "a8e5359f6aac853d",
+        "topic": "/eduard/green/range/rear/right/range",
+        "domain": "ba773ecadc520791",
+        "props": [],
+        "selectedtype": "sensor_msgs/msg/Range",
+        "x": 430,
+        "y": 980,
+        "wires": [
+            [
+                "8f68fe3be854bbc6"
+            ]
+        ]
+    },
+    {
+        "id": "6444f9e006c93965",
+        "type": "ui_gauge",
+        "z": "a8e5359f6aac853d",
+        "name": "",
+        "group": "7b12628829ee05ce",
+        "order": 4,
+        "width": 3,
+        "height": 3,
+        "gtype": "gage",
+        "title": "hinten rechts",
+        "label": "m",
+        "format": "{{msg.payload.range}}",
+        "min": 0,
+        "max": "3",
+        "colors": [
+            "#b30000",
+            "#e6e600",
+            "#04f176"
+        ],
+        "seg1": "0.3",
+        "seg2": "1",
+        "diff": false,
+        "className": "",
+        "x": 910,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "7e23ec48f3c9cdf8",
+        "type": "debug",
+        "z": "a8e5359f6aac853d",
+        "name": "debug range h.r.",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "4edb47388a200116",
+        "type": "delay",
+        "z": "a8e5359f6aac853d",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "4",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 660,
+        "y": 380,
+        "wires": [
+            [
+                "11023e36aeaf13b0",
+                "5c22b12ed294a910"
+            ]
+        ]
+    },
+    {
+        "id": "40dd24527f4421d3",
+        "type": "delay",
+        "z": "a8e5359f6aac853d",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "4",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 660,
+        "y": 580,
+        "wires": [
+            [
+                "1c8660bc0859a06a",
+                "7ac1ebf77b743f6c"
+            ]
+        ]
+    },
+    {
+        "id": "f3ddaf17d0a5cd52",
+        "type": "delay",
+        "z": "a8e5359f6aac853d",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "4",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 660,
+        "y": 780,
+        "wires": [
+            [
+                "934cdd7c17c07fe3",
+                "c24876d756728268"
+            ]
+        ]
+    },
+    {
+        "id": "8f68fe3be854bbc6",
+        "type": "delay",
+        "z": "a8e5359f6aac853d",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "4",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 660,
+        "y": 980,
+        "wires": [
+            [
+                "6444f9e006c93965",
+                "7e23ec48f3c9cdf8"
+            ]
+        ]
+    }
+]
